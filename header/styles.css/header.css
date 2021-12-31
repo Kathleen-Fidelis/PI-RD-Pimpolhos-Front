@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Comfortaa', cursive;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.custom-nav{
+    background-color: #E6889A;
+    height: 90px;
+}
+
+.logo{
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+/* .custom-form{
+    margin-left: 115px;
+} */
+
+.custom-form input{
+    width: 585px;
+    height: 37px;
+}
+
+.custom-form ::after{
+    background-image: url(../imgs/search.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 40px;
+}
+
+.icone{
+    position: relative;
+    padding-top: 15px;
+    width: 32px;
+    height: 44px;
+    left: 35px;
+    margin-top: 8px;
+}
+
+.cart p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-cadatro p{
+    text-align: center;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.custom-btn{
+    margin-left: 100px;
+    background-color: #9ACCFF;
+    width: 149px;
+    height: 37px;
+}
+
+.cart ::before {
+    background-image: url(../imgs/cart.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 40px;
+    right: 102px;
+}
+
+.login-cadatro{
+    margin-right: 30px;
+}
