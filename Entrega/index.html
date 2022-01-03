@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/Imagens/favicon.jpg" type="image/x-icon">
+    <title>Pimpolhos</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="formEntrega">
+
+            <div class="entrega"> <img src="/Imagens/pin-de-localizacao (1).png" alt=""> Entrega
+                <hr>
+            </div>
+
+            <form>
+                <div class="cep form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputCep">CEP</label>
+                        <input type="CEP" class="form-control" id="inputEmail4" placeholder="Digite seu CEP">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <br>
+                        <button><img src="/Imagens/pesquisa-de-lupa.png" alt=""></button>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <br>
+                        <br>
+                        <a class="correios" href="">Não sei meu CEP</a>
+                    </div>    
+                </div>
+
+                <div class="caixaIntEnd">
+
+                    <div class="form-group">
+                        <label for="inputAddress2">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Ex: Rua Pacheco, 55">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="inputCity">Bairro</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Ex: Vila Americana">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputEstado">Estado</label>
+                            <select id="inputEstado" class="form-control">
+                                <option selected>...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="inputCidade">Cidade</label>
+                            <select id="inputCidade" class="form-control">
+                                <option selected>Selecione a Cidade</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Complemento</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Ponto de Referência</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="">
+                        </div>
+
+                    </div>
+                </div>
+                <br> 
+                <div class="check">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <input type="checkbox" aria-label="Chebox para permitir input text">
+                          </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Input text com checkbox" placeholder="R$0,00         9 dias úteis        Frete Grátis " disabled>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <input type="checkbox" aria-label="Chebox para permitir input text">
+                          </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Input text com checkbox" placeholder="R$15,90         5 dias úteis        Correios " disabled>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
