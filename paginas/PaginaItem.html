@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=".//Produtos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../paginas/TermosDevolucao.css">
+    <title>Pagina Produtos</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom-nav">
+                <div class="container-fluid">
+                  <img class="logo" src="./imgs/logo-pimpolhos.jpeg" alt="" width="137" height="90">
+                  <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button> -->
+
+                  <div class=" navbar" id="navbarSupportedContent">
+                    <form class="d-flex custom-form">
+                      <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                    </form>
+
+                    <button type="button" class="btn custom-btn cart">
+                        <p> | 0,00</p>
+                    </button>
+                  </div>
+
+                  <div class="login-cadatro">
+                    <img src="./imgs/baby-user.png" alt="" class="icone">  
+                    <p>login ou  <br>cadastre-se</p>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+<div class="row">
+    <div class="row align-item-start">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav col-12 mb-3 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../paginas/Produtos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../paginas/Produtos.html">Meninas</a></li>
+                      <li><a class="dropdown-item" href="../paginas/ProdutosMeninos.html">Meninos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Acessórios</a></li>
+                    </ul>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Meus Pedidos</a>
+                </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/TermosDevolucao.html">Termos e Devoluções</a>
+            </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Atendimento</a>
+        </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Meu Perfil</a>
+    </li>
+    </ul>
+    </div>
+</div>
+
+    <br>
+    <!--COMEÇO -->
+    <!-- FILTRO DE PESQUISA --> 
+    <br>
+    <div class="row justify-content-around">
+        <div class="col-4">
+         
+        </div>
+        <div class="col-4">
+           
+          </div>
+        <div class="col-2">
+                <select class="form-select " aria-label="Default select example">
+                    <option selected>Ordenar Por :</option>
+                    <option value="1">Maior Preço</option>
+                    <option value="2">Menor Preço</option>
+                    <option value="3">Mais Vendidos</option>
+                  </select>
+                </div>
+        </div>
+      </div>
+    
+    <br>
+
+
+<main class="flex-fill">
+    <div class="container d-flex">
+        <div class="row g-3">
+            <div class="col-12 col-sm-6">
+                <img src="../paginas/imgs/b.jpg" class="img-thumbnail">
+                <br class="clearfix">
+                <div class="row mt-3 gx-3">
+                    <div class="col-3">
+                        <img src="../paginas/imgs/2.jpg" class="img-thumbnail" 
+                        onclick =trocarImagem(this)>
+                    </div>
+                    <div class="col-3">
+                        <img src="../paginas/imgs/2.jpg" class="img-thumbnail" 
+                        onclick =trocarImagem(this)>
+                    </div>
+                    <div class="col-3">
+                        <img src="../paginas/imgs/2.jpg" class="img-thumbnail" 
+                        onclick =trocarImagem(this)>
+                    </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
+</main>
+<br>
+<br>
+<span class="border-radius">
+    Descrição técnica:
+     <br>
+    <p class="text-start fw-light"> • Sexo: Menino</p>
+    <p class="text-start fw-light">• Tamanho: 55 Centímetros</p>
+    <p class="text-start fw-light">• Material: 100% de silicone no corpo inteiro</p>
+    <p class="text-start fw-light">• Peso: Cerca de 1.500 Kg</p>
+    <p class="text-start fw-light">• Acompanha: Um bebe reborn + Roupas igual da foto + Chupeta Magnética + Mamadeira + Certidão de Nascimento </p>
+    <br>
+</span>
+    <h5 class="text-start">PRODUTOS RELACIONADOS</h5>
+    <div class="cards">
+        <div class="container-card">
+            <div class="row align-items-start">
+            <ul class="lista-produtos">
+                <li class="item-produto">
+                    <div class="fav">
+                        <a class="fav-icon"><img src="./imgs/heart (2).png" width="25px" height="25px"></a>
+                    </div>
+                    <img src="../paginas/imgs/GABI1.jpg" class="imagem-produto" width="215" height="215">
+                    <div class="nome-produto">Bebê reborn<br>
+                         Gabi com elefantinho</div>
+                    <br>
+                    <div class="precos">
+                        <div class="preco">R$ 619,00</div>
+                        <div class="parcelado">OU 10X DE R$ 61,90</div>
+                    </div>
+    
+                    <button type="button" class="comprar">Comprar</button>
+    
+                </li>
+            </ul>
+        </div>
+    
+        <div class="container-card">
+            <ul class="lista-produtos">
+                <li class="item-produto">
+                    <div class="fav">
+                        <a class="fav-icon"><img src="./imgs/heart (2).png" width="25px" height="25px"></a>
+                    </div>
+                    <img src="./imgs//12.jpg" class="imagem-produto" width="215" height="215">
+                    <div class="nome-produto">Bebê reborn<br>
+                         Gael</div>
+                    <br>
+                    <div class="precos">
+                        <div class="preco">R$ 499,00</div>
+                        <div class="parcelado">OU 10X DE R$ 49,90</div>
+                    </div>
+    
+                    <button type="button" class="comprar" href="../paginas/PaginaItem.html">Comprar</button>
+    
+                </li>
+            </ul>
+        </div>
+    
+        <div class="container-card">
+            <ul class="lista-produtos">
+                <li class="item-produto">
+                    <div class="fav">
+                        <a class="fav-icon"><img src="./imgs/heart (2).png" width="25px" height="25px"></a>
+                    </div>
+                    <img src="./imgs/2.jpg" class="imagem-produto" width="215" height="215">
+                    <div class="nome-produto">Bebê reborn<br>
+                         Fernanda</div>
+                    <br>
+                    <div class="precos">
+                        <div class="preco">R$ 599,00</div>
+                        <div class="parcelado">OU 10X DE R$ 59,90</div>
+                    </div>
+    
+                    <button type="button" class="comprar">Comprar</button>
+    
+                </li>
+            </ul>
+        </div>
+    
+        <div class="container-card">
+            <ul class="lista-produtos">
+                <li class="item-produto">
+                    <div class="fav">
+                        <a class="fav-icon"><img src="./imgs/heart (2).png" width="25px" height="25px"></a>
+                    </div>
+                    <img src="../paginas/imgs//a.jpg" class="imagem-produto" width="215" height="215">
+                    <div class="nome-produto">Bebê reborn<br>
+                         Miguel</div>
+                    <br>
+                    <div class="precos">
+                        <div class="preco">R$ 659,00</div>
+                        <div class="parcelado">OU 10X DE R$ 65,90</div>
+                    </div>
+    
+                    <button type="button" class="comprar">Comprar</button>
+    
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+  <!-- <div class="col-12 col-sm-6">
+    <img src="../../../2.png" class="img-thumbnail">
+    <br class="clearfix">
+    <div class="row mt-3 gx-3">
+<div class="col-3">
+    <img src="../../../2.png" class="img-thumbnail"
+        onclick="TrocarImagem(this)">
+</div>
+<div class="col-3">
+    <img src="../../../2.png" class="img-thumbnail"
+        onclick="TrocarImagem(this)">
+</div>
+<div class="col-3">
+    <img src="../../../2.png" class="img-thumbnail"
+        onclick="TrocarImagem(this)">
+</div>
+<div class="col-3">
+    <img src="../../../2.png" class="img-thumbnail"
+        onclick="TrocarImagem(this)">
+</div> -->
+
+</body>
+</html>
