@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto+Mono:wght@200;300&display=swap');
+
+#containerConteudo {
+    padding: 17px;
+    background-color: #ffcedf8f;
+}
+
+
+.infoBonecos {
+    border: 1px solid;
+    background-color: white;
+    height: 430px;
+}
+
+.descricao {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #ffcedf8f;
+}
+
+.descricao p {
+    margin-bottom: 5px;
+}
+
+.inputNumero {
+    width: 52px;
+    height: 38px;
+    margin-left: 14px;
+}
+
+.btn-success {
+    margin-left: 15px;
+    background-color: #9CF38E;
+    font-weight: bold;
+    border-color: #9CF38E;
+}
+
+.btn-success:hover {
+    background-color: #69e956;
+}
+
+.imgFav {
+    height:40px;
+    margin-top: -80px;
+    margin-right: 13px;
+    margin-left: 476px;
+
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.codigo {
+    margin-left: 12px;
+}
+
+h5 {
+    font-weight: bold;
+    margin-left: 26px;
+
+}
+
+/* Apagar assim que criar o CSS NAV */
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Comfortaa', cursive;
+    background-color: white;
+    
+}
+
+.menu-a li a, .dropdown-toggle{
+    list-style: none;
+    text-decoration-line: none;
+    color: #E6889A;
+    font-weight: bold;
+}
+
+.menu-a li a:hover{
+    color: grey;
+}
+
+.dropdown-toggle:hover{
+    color:grey;
+}
+
+.dropdown-toggle{
+padding: 0.5rem 1rem;
+text-decoration-line: none;
+}
+
+/* apagar assim que possivel */
