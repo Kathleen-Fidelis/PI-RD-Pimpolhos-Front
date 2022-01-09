@@ -1,0 +1,212 @@
+
+body{
+    background-color: #ffcedf8f;
+    padding:0px;
+    margin:0px;
+}
+
+#Cliente{
+
+    margin-top: 200px;
+    max-width: 861px;
+}
+.tab-content{
+background-color: white;
+padding:10px;
+outline:1px solid rgb(199, 199, 199);
+}
+
+.nav-item{
+   outline:0.5px solid rgb(199, 199, 199);
+    background-color: #ffc792a8;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    
+}
+.nav-link{
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+}
+.nav-link:active{
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    color:rgb(0, 0, 0);
+}
+.nav-link:hover{
+   
+   color:rgb(255, 255, 255);
+    
+}
+.nav-link.active{
+     text-decoration-color: black;
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+}
+
+.titleCard{
+    padding: 5px;
+
+    font-size:25px;
+    font-weight: bold;
+    outline: 0.5px solid rgb(199, 199, 199);
+    border-radius:8px;
+
+}
+.container.row{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left:10px
+}
+
+.modalcontentTitle{
+    font-size: 19px;
+    font-weight: bold;
+  
+}
+.cardContentTitleDC{
+    font-size:  20px;
+   font-weight: bold;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+.cardContent{
+ 
+ border: 0.5px solid rgb(199, 199, 199);
+ border-radius:8px;
+ padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+
+
+
+.input-group-text{
+    border:2px solid transparent;
+    height: 30px;
+    background-color:transparent;
+}
+.form-control{
+    font-size: 11px;
+   
+    
+}
+.form-control:disabled{
+    background-color: #ffc792a8;
+    border:2px solid transparent;
+}
+Label{
+    font-size: 11px;
+    
+}
+
+.titleContainersecondary{
+    font-weight: bold;
+}
+
+/* Endereço Principal*/
+.titleContainer{
+    align-items: flex-end;
+}
+.textoapoio{
+    font-size: 11px;
+}
+
+#AdicionarEnde{
+    margin-left: -117px;
+  
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+.cancelar{
+background-color: rgb(172, 172, 172);
+color: rgb(255, 255, 255);
+}
+
+.salvar{
+    background-color: rgb(165, 201, 243);
+    color: rgb(255, 255, 255);
+}
+
+.cancelar:hover{
+    background-color: rgb(134, 134, 156);
+    color: rgb(255, 255, 255);
+}
+.salvar:hover{
+    background-color: rgb(123, 164, 211);
+    color: rgb(255, 255, 255);
+
+}
+.edit{
+    background-color: rgb(245, 184, 207);
+    color: rgb(255, 255, 255);
+}
+.edit:hover{
+    background-color: rgb(245, 146, 184);
+    color: rgb(255, 255, 255);
+}
+
+
+.modal-header{
+    background-color:#ffc792a8;
+ 
+}
+.modal-body{
+ 
+    font-weight: bold;
+
+}
+
+
+.cardContent.row.modalEndereco{
+justify-content:space-between;
+}
+.btn.lupa{
+background-color: rgb(177, 236, 217);
+
+}
+
+.row.cepteste{
+    flex-wrap: nowrap;
+}
+
+.cartaocadastrado{
+    height:30px;
+    
+}
+
+
+.imgApoio{
+    width:18px;
+    margin-top: -5px;
+  
+}
+.emotes{
+    margin-right: 10px;
+}
+
+
+
+@media(max-width:520px){
+
+
+    .row .teste{
+        
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .row.titleContainer{
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    
+}
