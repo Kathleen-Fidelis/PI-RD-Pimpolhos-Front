@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
+    margin-top: 50px;
     
     
 }
@@ -98,3 +99,6 @@ a, .redes, .nav-link, .pagamento, .nav{
 
 }
 
+.coluna-1, .coluna-2, .coluna-3, .redes p {
+    margin-top: 50px;
+}

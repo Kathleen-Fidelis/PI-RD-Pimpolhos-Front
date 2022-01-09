@@ -57,6 +57,7 @@ em{
     line-height: 1.5;
     align-items: center;
     font-size: 1em;
+    margin-top: 10px;
 }
 
 .clientes{
@@ -80,4 +81,11 @@ em{
 }
 
 
-
+.avaliacoes{
+    color:#E6889A;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -72vw;
+}
