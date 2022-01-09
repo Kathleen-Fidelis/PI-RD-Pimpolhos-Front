@@ -262,7 +262,8 @@ text-decoration-line: none;
 
    .navbar-collapse{
        display: flex;
-       height: 80px;
+       height: 44px;
+       padding-bottom: 15px;
    }
 
    .custom-btn{
@@ -275,13 +276,18 @@ text-decoration-line: none;
    }
 
    .icone{
-       width: 23px;
-       height: 40px;
+       width: 26px;
+       height: 47px;
        left: 20px;
+       margin-bottom: 32px;
    }
 
    .login-cadatro{
        font-size: 9px;
+   }
+
+   .login-cadatro p{
+       display: none;
    }
 
    .custom-nav{
@@ -301,10 +307,11 @@ text-decoration-line: none;
 @media (min-width: 993px){
     .navbar-collapse{
         height: 90px;
+        width: 1219px;
     }
 
     .custom-form input{
-        margin-left: 108px;
+        margin-left: -16px;
     }
 
     .navbar .container-fluid{
