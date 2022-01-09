@@ -225,11 +225,15 @@
    }
 
    .custom-nav{
-       height: 98px;
+       height: 108px;
    }
 
    .cart ::before{
        left: 14px;
+   }
+
+   .logo{
+       height: 100px;
    }
     
 }
@@ -254,5 +258,10 @@
     .login-cadatro{
         margin-left: 106px;
         font-size: 15px;
+    }
+
+    .logo{
+        height: 125px;
+        padding-top: 16px;
     }
 }
