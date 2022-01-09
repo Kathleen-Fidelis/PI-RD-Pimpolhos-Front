@@ -1,0 +1,17 @@
+body{
+    padding: 0%;
+    margin: 0%;   
+}
+
+
+.menSuperior {
+    background-color: #F7D794;
+    text-align: center;
+    color: white;
+    height: 25px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
