@@ -1,43 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    max-width: 100%;
+}
 
 body{
     background-color: #ffcedf8f;
     padding:0px;
     margin:0px;
+    font-family: 'Comfortaa', cursive;
 }
 
-#Cliente{
 
-    margin-top: 200px;
-    max-width: 861px;
-}
 .tab-content{
 background-color: white;
 padding:10px;
 outline:1px solid rgb(199, 199, 199);
+margin-bottom: 20px;
 }
 
-.nav-item{
+.nav-item.principal{
    outline:0.5px solid rgb(199, 199, 199);
     background-color: #ffc792a8;
     border-top-right-radius:10px;
     border-top-left-radius:10px;
     
 }
-.nav-link{
+.nav-link.principal{
     color:rgb(0, 0, 0);
     font-weight:bold;
 }
-.nav-link:active{
+.nav-link.principal:active{
     border-top-right-radius:10px;
     border-top-left-radius:10px;
     color:rgb(0, 0, 0);
 }
-.nav-link:hover{
+.nav-link.principal:hover{
    
    color:rgb(255, 255, 255);
     
 }
-.nav-link.active{
+.nav-link.active.principal{
      text-decoration-color: black;
     border-top-right-radius:12px;
     border-top-left-radius:12px;
@@ -45,13 +48,16 @@ outline:1px solid rgb(199, 199, 199);
 
 .titleCard{
     padding: 5px;
-
-    font-size:25px;
-    font-weight: bold;
     outline: 0.5px solid rgb(199, 199, 199);
     border-radius:8px;
 
 }
+#titleCardMinhaConta h1{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
 .container.row{
     flex-direction: row;
     justify-content: space-around;
@@ -84,6 +90,10 @@ margin-bottom: 10px;
 
 }
 
+.nav-tabs.margin-tab{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
 
 
 
@@ -156,7 +166,8 @@ color: rgb(255, 255, 255);
 
 
 .modal-header{
-    background-color:#ffc792a8;
+    background-color:#f897a9;
+    color: white;
  
 }
 .modal-body{
@@ -193,11 +204,39 @@ background-color: rgb(177, 236, 217);
     margin-right: 10px;
 }
 
+.btn.modalclose{
+   font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
 
+.nomeCartao{
+    font-size: 19px;
+    margin-top: 27px;
+}
+.helpCard{
 
+    margin: -33px 10px 0px 103px;
+    font-size: 22px;
+    color: black;
+}
+
+.navtabContainer{
+   margin-top: 20px;
+}
+.modal-footer{
+    background-color:#fff7b3;
+}
+.modal-footer.Card{
+    background-color:white;
+}
 @media(max-width:520px){
 
-
+    .row.enderecoCartao{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
     .row .teste{
         
         flex-direction: row;

@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0% ;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
@@ -40,7 +40,7 @@ menu{
     text-decoration-line: none;
     color: #E6889A;
     font-weight: bold;
-    margin: 0px 60px;
+   /*  margin: 0px 60px; */
 }
 
 .menu-a li a:hover{
@@ -210,7 +210,7 @@ text-decoration-line: none;
 }
 
 .cartFake{
-    background-image: url('../Entrega/Imagens/azul_abstrato_background.png');
+    background-image: url('../images/azul_abstrato_background.png');
     margin: 30px 0px 30px 90px;
     height: 180px;
     border-radius: 20px;
@@ -264,26 +264,15 @@ text-decoration-line: none;
     font-family: 'Dancing Script', cursive;
 }
 
-.form button{
-    background-color: #9CF38E;
-    width: 60%;
-    margin: 30px 0px 20px 90px;
-    height: 50px;
-    color: white;
-    border-radius: 30px;
-    font-size: 20px;
 
-}
-
-.form button:hover{
-    background-color: #79b870;
-}
 
 .form a {
-    margin: 30px 10px 0px 0px ;
+    margin: -33px 10px 0px 103px;
     font-size: 22px;
     color: black;
+    text-decoration: none;
 }
+
 /* <!-- FINAL MODAL CARTÃO DE CREDITO --> */
 
 

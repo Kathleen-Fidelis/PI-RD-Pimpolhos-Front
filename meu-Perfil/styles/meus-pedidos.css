@@ -26,19 +26,24 @@
     border: 1px solid #E7E6E6;
     border-radius: 10px;
     padding-top: 15px;
-    margin-bottom: 30px;
+    
     background-color: #e7e6e66b;
 }
 
+.container-conteudo .row{
+    align-items: center;
+    
+}
+
+
 .custom-btn-meus-pedidos{
-    width: 252px;
-    height: 58px;
+    
     background-color: #9ACCFF;
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    margin-left: 350px;
-    margin-top: 60px;
+    width: 68%;
+    padding: 6%;
 }
 
 .container-meus-pedidos{
@@ -46,6 +51,8 @@
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
+   
+  
 }
 
 .title{
@@ -54,9 +61,4 @@
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
-}
-
-.custom-btn-header{
-    width: 149px;
-    height: 37px;
 }

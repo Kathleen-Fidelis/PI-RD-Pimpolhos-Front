@@ -68,6 +68,10 @@ hr{
     margin-left: 29px;
 }
 
+.form-control:disabled{
+    background-color: #f7d8948a;
+}
+
 .infos-loja{
     margin-top: 15px;
     margin-left: 45px;
