@@ -54,10 +54,20 @@
     font-size: 18px;
 }
 
-.login-cadatro p{
+.login-cadatro p {
     text-align: center;
     margin-right: 10px;
     padding-bottom: 5px;
+    color: white;
+}
+
+.login-cadatro p a:hover{
+    color: gray;
+}
+
+.link-login-cadastro{
+    text-decoration: none;
+    font-weight: bold;
     color: white;
 }
 

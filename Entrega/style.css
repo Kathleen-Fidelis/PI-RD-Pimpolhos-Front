@@ -1,9 +1,17 @@
 body{
-    margin: 0%;
-    padding: 0% ;
+    margin: 0;
+    padding: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* .res-entrega {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+} */
 
 .res{
     background-color: #ffcedf57;

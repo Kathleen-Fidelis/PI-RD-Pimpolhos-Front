@@ -14,45 +14,80 @@
 </head>
 <body>
     
-    <!-- INÍCIO DO BANNER DE FRETE -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="menSuperior col-12">
-                FRETE GRÁTIS + BRINDE PARA COMPRAS ACIMA DE R$400,00 
-            </div>
-        </div>
+    <!-- FRETE GRATIS -->
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="menSuperior">
+        FRETE GRÁTIS + BRINDE PARA COMPRAS ACIMA DE R$400,00
+      </div>
     </div>
-    <!-- FIM DO BANNER DE FRETE -->
-    
-    <!-- INÍCIO DO HEADER -->
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg custom-nav">
-                <div class="container-fluid">
-                  <img class="logo" src="../header/imgs/logo-pimpolhos.jpeg" alt="" width="137" height="90">
-                  <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button> -->
-                  
-                  <div class=" navbar" id="navbarSupportedContent">
-                    <form class="d-flex custom-form">
-                      <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
-                    </form>
+  </div>
 
-                    <button type="button" class="btn custom-btn cart">
-                        <p> | 0,00</p>
-                    </button>
-                  </div>
+  <!-- HEADER -->
+  <header>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom-nav">
+            <div class="container-fluid">
+              <a href="../header/index.html"><img class="logo" src="../header/imgs/logo-pimpolhos-certo.gif" alt="" width="137" height="90"></a>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-                  <div class="login-cadatro">
-                    <img src="../header/imgs/baby-user.png" alt="" class="icone">  
-                    <p class="text">login ou  <br>cadastre-se</p>
-                  </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex custom-form">
+                  <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                </form>
+
+                <a href="../carrinho/carrinho.html"><button type="button" class="btn custom-btn cart">
+                    <p> | 0,00</p>
+                </button></a>
+
+                <div class="login-cadatro">
+                  <img src="../header/imgs/baby-user.png" alt="" class="icone">  
+                  <p> <a class="link-login-cadastro" href="../login/index.html"> login ou</a>   <br> <a class="link-login-cadastro" href="../cadastro/index.html">cadastre-se</a></p>
                 </div>
-              </nav>
-        </div>
-    </header>
-    <!-- FIM DO HEADER -->
+              </div>
+            </div>
+          </nav>
+    </div>
+</header>
+
+
+
+  <!-- NAV -->
+
+  <ul class="menu nav menu-a"><a class="nav-link-nav dropdown-toggle" href="#" id="navbarDropdown" role="button"
+      data-bs-toggle="dropdown" aria-expanded="false">
+      Categorias
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="../paginas/Produtos.html">Meninas</a></li>
+      <li><a class="dropdown-item" href="../paginas/ProdutosMeninos.html">Meninos</a></li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item" href="../paginas/Acessorios.html">Acessórios</a></li>
+    </ul>
+
+    <!-- <li class="nav-item menu-li">
+      <a class="nav-link " href="#">Categorias</a>
+    </li> -->
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../meus-pedidos/index.html">Meus Pedidos</a>
+    </li>
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../paginas/TermosDevolucao.html">Trocas & Devoluções</a>
+    </li>
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../fale-conosco/index.html">Atendimento</a>
+    </li>
+    <li class="nav-item menu-li">
+      <a class="nav-link menu-a" href="../meu-Perfil/meuperfil.html">Meu Perfil</a>
+    </li>
+  </ul>
 
 
     <!-- INÍCIO DO CARD ATUALIZAR SENHA -->
@@ -78,7 +113,7 @@
                                 </div>
 
                                 <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn custom-button">Login</button>
+                                    <a href="../login/index.html"><button type="button" class="btn custom-button">Login</button></a>
                                 </div>
                             </div>
                         </div>
@@ -90,106 +125,112 @@
     </div>
     <!-- FIM DO CARD ATUALIZAR SENHA -->
 
-    <!-- INICIO FOOTER -->
+    <!-- FOOTER -->
+
     <footer>
-        <div class="footer">
-          <div class="coluna-1 mt-4">
-            <ul class="nav flex-column teste">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Cadastre-se</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Recuperar senha </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fale Conosco</a>
-              </li>
-            </ul>
-          </div>
-    
-          <div class="coluna-2 mt-4">
-            <ul class="nav flex-column teste">
-              <li class="nav-item ">
-                <a class="nav-link" style aria-current="page" href="#">Termos de serviço</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">Politica de privacidade</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Politica de cookies </a>
-              </li>
-            </ul>
-          </div>
-    
-          <div class="coluna-3 mt-4">
-            <ul class="nav flex-column teste">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Trocas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Devoluções</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sugestões </a>
-              </li>
-            </ul>
-          </div>
-    
-    
-          <!-- REDES SOCIAIS -->
-    
-    
-          <div class="redes mt-4">
-    
-            <p>Siga a gente nas redes sociais</p>
-    
-            <ul class="nav flex-column">
-              <li class="nav-item-img">
-                <a class="img-footer" href="#"><img src="../footer/img-footer/instagram (3).png" height="30px" width="30px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/facebook (3).png" height="30px" width="30px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/whatsapp (1).png" height="30px" width="30px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/youtube (1).png" height="30px" width="30px"></a>
-              </li>
-            </ul>
-    
-    
-            <!-- PAGAMENTO -->
-    
-            <hr>
-            <p>Pague com </p>
-    
-            <ul class="nav flex-column">
-              <li class="nav-item-img">
-                <a class="img-footer" href="#"><img src="../footer/img-footer/logo-pix-icone-256.png" height="35px"
-                    width="35px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/icons8-logótipo-da-mastercard-48.png" height="40px"
-                    width="40px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/visa (1).png" height="40px" width="40px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/american-express (1).png" height="40px"
-                    width="40px"></a>
-                <a class="img-footer" href="#"><img src="../footer/img-footer/icons8-boleto-bankario-48.png" height="35px"
-                    width="35px"></a>
-              </li>
-            </ul>
-          </div>
+      <div class="footer">
+        <div class="coluna-1">
+          <ul class="nav flex-column teste">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../login/index.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../cadastro/index.html">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../esqueci-minha-senha/index.html">Recuperar senha </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../fale-conosco/index.html">Fale Conosco</a>
+            </li>
+          </ul>
         </div>
-    
-    
-        <!-- copyright -->
-    
-    
-        <div class="copyright">
+
+        <div class="coluna-2">
+          <ul class="nav flex-column teste">
+            <li class="nav-item ">
+              <a class="nav-link" style aria-current="page" href="../paginas/TermosDevolucao.html">Termos de serviço</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/TermosDevolucao.html">Politica de privacidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Politica de cookies </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="coluna-3">
+          <ul class="nav flex-column teste">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../paginas/TermosDevolucao.html">Trocas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/TermosDevolucao.html">Devoluções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../fale-conosco/index.html">Sugestões </a>
+            </li>
+          </ul>
+        </div>
+
+
+        <!-- REDES SOCIAIS -->
+
+
+        <div class="redes">
+
+          <p>Siga a gente nas redes sociais</p>
+
+          <ul class="nav flex-column">
+            <li class="nav-item-img">
+              <a class="img-footer" href="#"><img src="../footer/img-footer/instagram (3).png" height="30px"
+                  width="30px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/facebook (3).png" height="30px"
+                  width="30px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/whatsapp (1).png" height="30px"
+                  width="30px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/youtube (1).png" height="30px"
+                  width="30px"></a>
+            </li>
+          </ul>
+
+
+          <!-- PAGAMENTO -->
+
           <hr>
-          <p class="devs">
-    
-            Desenvolvido por grupo Pimpolhos <br>
-            RD - Quero ser dev
-          </p>
+          <p>Pague com </p>
+
+          <ul class="nav flex-column">
+            <li class="nav-item-img">
+              <a class="img-footer" href="#"><img src="../footer/img-footer/logo-pix-icone-256.png" height="35px"
+                  width="35px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/icons8-logótipo-da-mastercard-48.png"
+                  height="40px" width="40px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/visa (1).png" height="40px"
+                  width="40px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/american-express (1).png" height="40px"
+                  width="40px"></a>
+              <a class="img-footer" href="#"><img src="../footer/img-footer/icons8-boleto-bankario-48.png" height="35px"
+                  width="35px"></a>
+            </li>
+          </ul>
         </div>
-      </footer>
+      </div>
+
+
+      <!-- copyright -->
+
+
+      <div class="copyright">
+        <hr>
+        <p class="devs">
+
+          Desenvolvido por grupo Pimpolhos <br>
+          RD - Quero ser dev
+        </p>
+      </div>
+    </footer>
 </body>
 </html>

@@ -1,3 +1,7 @@
+*{
+    max-width: 100%;
+}
+
 body{
     background-color: #ffcedf8f;
 
