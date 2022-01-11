@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
+    padding-top: 50px;
     
     
 }

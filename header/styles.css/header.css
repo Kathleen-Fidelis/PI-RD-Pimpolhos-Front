@@ -10,11 +10,14 @@
 
 .container-fluid{
     padding: 0;
+    justify-content: center;
+    
 }
 
 .custom-nav{
     background-color: #E6889A;
     height: 90px;
+    width: 100%;
 }
 
 .logo{
@@ -78,9 +81,10 @@
     position: absolute;
     width: 32px;
     height: 40px;
-    right: 102px;
+    right: 119px;
 }
 
 .login-cadatro{
     margin-right: 30px;
 }
+
