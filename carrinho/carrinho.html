@@ -9,7 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../header/styles.css/header.css">
     
-    <link rel="stylesheet" href="../carrinho/carrinho.css">
+    <link rel="stylesheet" href="./CARRINHO.css">
     <link rel="stylesheet" href="../footer/footer.css">
     <title>CARRINHO</title>
 </head>
@@ -114,7 +114,9 @@
                     </li>
                     <li class="descricao-produto">Alice com girafinha</li>
                     <li class="sub-preco">R$999,99</li>
-                    <li class="qtd"><input type="number"></input></li>
+                    <li class="qtd"><li class="qtd"><input type="button" class="adicionar" name="mais2" id="mais2" value="+" /><input type="text" class="campo-qtd" name="format2" value="0" id="format2" size="2" /> <input type="button" class="subtrair" name="menos2" id="menos2" value="-" /></input></li>
+                  </input></li>
+
                     <li class="sub-total">R$999,99</li>
                     <li class="lixeira"><img src="./img-carrinho/lixeira-de-reciclagem (1).png" width="30px"
                             height="30px"></li>
@@ -127,25 +129,26 @@
                     </li>
                     <li class="descricao-produto">Gabi com girafinha</li>
                     <li class="sub-preco">R$999,99</li>
-                    <li class="qtd"><input type="number"></input></li>
+                    <li class="qtd"><li class="qtd"><input type="button" class="adicionar" name="mais2" id="mais2" value="+" /><input type="text" class="campo-qtd" name="format2" value="0" id="format2" size="2" /> <input type="button" class="subtrair" name="menos2" id="menos2" value="-" /></input></li>
+                  </input></li>
                     <li class="sub-total">R$599,99</li>
                     <li class="lixeira"><img src="./img-carrinho/lixeira-de-reciclagem (1).png" width="30px"
                             height="30px"></li>
                 </ul>
             </div>
 
-            <div class="sub-menu col-12">
-                <ul class="frete">
-                    <li class="cal-frete">Calcule o frete</li>
-                    <li class="btn-cal"><input type="text"></input></li>
-                    <li class="cep">Não sei meu cep</li>
-                </ul>
-                <ul class="total">
-                    <li class="vl-total">Total</li>
-                    <li class="avista">R$ 1.599,90</li>
-                    <li class="vl-parcelado">Ou em 10x de R$ 159,99</li>
-                </ul>
-            </div>
+            <div class="sub-menu-frete col-12">
+              <ul class="frete">
+                  <li class="cal-frete">Calcule o frete</li>
+                  <li class="btn-cal"><input type="text"></input></li>
+                  <li class="cep">Não sei meu cep</li>
+              </ul>
+              <ul class="total">
+                  <li class="vl-total">TOTAL</li>
+                  <li class="avista">R$ 1.599,90</li>
+                  <li class="vl-parcelado">ou em 10x de R$ 159,99</li>
+              </ul>
+          </div>
 
             <div class="botao-comprar col-12">
 
@@ -386,6 +389,7 @@
             </div>
           </footer>
 
+          <script type="text/javascript" src="./app.js"></script>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -55,5 +55,9 @@ h3 h4 {
 padding: 0.5rem 1rem;
 text-decoration-line: none;
 }
+.itemCategoria:hover{
+    background-color:white;
+    text-decoration-line: none;
+}
 
 /* apagar assim que possivel */

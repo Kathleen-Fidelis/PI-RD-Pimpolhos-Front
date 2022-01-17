@@ -51,31 +51,40 @@ background-color: #ffcedf8f;;
     background-color: rgba(194, 194, 194, 0.493);
 }
 
+.sub-menu-frete{
+    background-color: rgba(194, 194, 194, 0.493);
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    padding-top: 21px;
+}
+
 .descricao-produto, .sub-preco, .qtd, .sub-total, .lixeira{
     margin-top: 30px;
 }
 
 .cal-frete{
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .cep{
     text-decoration: underline;
     margin-left: 10px;
     margin-top: 10px;
+    color: black;
 }
 
 .btn-cal{
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 1px;
 }
+
 .total{ display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: flex-end;
     color: black;
-    margin: 10px;
-
 }
 
 .vl-total, .avista, .vl-parcelado{
@@ -121,6 +130,28 @@ background-color: #74b9ff ;
 
 .botao-continuar:hover{
     background-color:  #47a0f8 ;
+}
+
+.adicionar{
+    width: 19px;
+    border-radius: 6px;
+    background-color: white;
+    border-style: solid;
+}
+
+.subtrair{
+    width: 19px;
+    border-radius: 6px;
+    background-color: white;
+    border-style: solid;
+}
+
+.campo-qtd{
+    border-radius: 13px;
+    width: 45px;
+    padding-left: 15px;
+    margin-left: 5px;
+    border-style: solid;
 }
 
 
@@ -236,4 +267,73 @@ background-color: #74b9ff ;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 17px;
+}
+
+
+/* RESPONSIVO */
+
+@media(max-width: 700px)
+{
+    .sub-produto{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-between;
+        color: black;
+        padding-right: 25px;
+        padding-left: 12px;
+        align-content: center;
+    
+    }
+}
+
+@media(max-width: 1230px)
+{
+    .cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+}
+
+@media(max-width: 850px)
+{
+   .frete{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+   }
+}
+
+@media(max-width: 850px)
+{
+   .total{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+}
+
+@media(max-width: 750px)
+{
+   .sub{
+    display: none;
+    
+    
+   }
+}
+
+@media(max-width: 415px)
+{
+    .cep {
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-left: 2px;
+    }
 }

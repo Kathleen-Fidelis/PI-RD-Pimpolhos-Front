@@ -40,11 +40,12 @@
     border: 1px solid #E7E6E6;
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 20px;
-    width: 500px;
+    margin-bottom: 167px;
+    /* width: 500px;
     height: 235px;
-    margin-right: 20px;
+    margin-right: 20px; */
     background-color:rgb(255, 255, 255);
+    /* margin-right: 426px; */
 }
 
 .container-mais-detalhes-pagamento{
@@ -52,12 +53,13 @@
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 500px;
+    /* margin-top: 20px; */
+   /*  width: 500px; */
     background-color:rgb(255, 255, 255);
 }
 
 .p-cidade{
-    margin-left: 160px;
+    margin-left: 100px;
 }
 
 .container-conteudo-pagamento{
@@ -65,7 +67,7 @@
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 460px;
+   /*  width: 460px; */
     background-color:rgb(255, 255, 255);
 }
 
@@ -83,15 +85,16 @@
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 500px;
-    margin-right: 738px;
+    /* width: 500px;*/
+    margin-right: 611px;
     margin-top: -144px;
-    height: 123px;
+   /*  height: 123px; */
     background-color:rgb(255, 255, 255);
+    /* margin-right: 428px; */
 }
 
 .container-status-pagamento p{
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
@@ -99,4 +102,25 @@
 .maisdetalhesModalBody{
     background-color:#f8cdd5;
     
+}
+
+@media (max-width:992px){
+    .container-status-pagamento{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .infosBebe-mais-detalhes{
+        margin-left: 32px;
+    }
+}
+
+@media (max-width:768px){
+    .infosBebe-mais-detalhes{
+        margin-left: 10px;
+    }
+
+    .container-mais-detalhes-endereco{
+        margin-bottom: 20px;
+    }
 }

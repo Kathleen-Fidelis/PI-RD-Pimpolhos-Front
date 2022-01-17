@@ -205,7 +205,10 @@
     background-color: white;
     
 }
-
+.itemCategoria:hover{
+    background-color:white;
+    text-decoration-line: none;
+}
 .menu-a li a, .dropdown-toggle{
     list-style: none;
     text-decoration-line: none;
@@ -229,4 +232,50 @@ text-decoration-line: none;
 
 .text-footer{
     text-align: center;
+}
+
+.paginacao{
+     width: 40px;
+     color: gray;
+     padding: 6px;
+     align-items: center;
+}
+
+.paginacao:hover {
+    color: black;
+}
+
+.paginacao1 {
+    display: flex;
+    justify-content:center;
+}
+
+.imagemBanner {
+    width: 100%;
+}
+.nomePagina {
+    text-align: center;
+    color: gray;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 24px;
+
+}
+.inputFiltro {
+    margin-left: 35px;
+}
+a:hover {
+    color: gray;
+}
+
+@media (max-width:1236px) {
+    .cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: -45px;
+    }
+}
+.imagemBanner {
+    width: 100%;
 }

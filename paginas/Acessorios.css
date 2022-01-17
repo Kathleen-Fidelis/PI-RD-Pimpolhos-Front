@@ -6,6 +6,7 @@
     padding: 0;
     /* font-family: 'Roboto Mono', monospace; */
     font-family: 'Comfortaa', cursive;
+    max-width: 100%;
 }
 
 .container-fluid{
@@ -225,3 +226,52 @@ padding: 0.5rem 1rem;
 text-decoration-line: none;
 }
 /* Apagar assim que possivel */
+
+.paginacao{
+    border: 1px solid;
+    padding: 6px;
+    align-items: center;
+    width: 40px;
+    color: gray;
+}
+
+.paginacao:hover {
+   color: black;
+}
+
+.paginacao1 {
+   display: flex;
+   justify-content:center;
+   
+}
+
+.imagemBanner {
+    width: 100%;
+}
+.nomePagina {
+    text-align: center;
+    color: gray;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 24px;
+
+}
+.itemCategoria:hover{
+    background-color:white;
+    text-decoration-line: none;
+}
+.inputFiltro {
+    margin-left: 35px;
+}
+a:hover {
+    color: gray;
+}
+
+@media (max-width:1236px) {
+    .cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: -45px;
+    }
+}

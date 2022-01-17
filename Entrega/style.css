@@ -1,3 +1,8 @@
+*{
+    max-width: 100%;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -10,23 +15,24 @@ body{
     font-family: 'Dancing Script', cursive;
     display: flex;
     height: 100%;
-    
-    
+    width: 200px;   
 }
 
-.menSuperior {
+
+
+.menSuperior{
     background-color: #F7D794;
     text-align: center;
     color: white;
     height: 25px;
     font-family: 'Dancing Script', cursive;
-    width: 100%;
-
+    width: 1400px;
+    
 }
 
 /* <!-- NAV--> */
 
-menu{
+.menu{
     display: flex;
     justify-content: space-around;
     font-family: 'Comfortaa', cursive;
@@ -74,7 +80,7 @@ text-decoration-line: none;
     width: 100%;
     margin: 5px 15px 0px 15px;
     padding: 4px 0px 0px 20px;
-    height: 30px;
+    height: 100%;
 }
 
 .resumo3{
@@ -102,10 +108,18 @@ text-decoration-line: none;
     background-color: white;
     width: 100%;
     padding: 20px;
-    height: 100%;
-    margin: 20px 0px 20px 15px ;
+    height: 100%;;
+    margin: 20px 0px 10px 0px ;
 }
 
+.cep{
+    display: flex;
+    align-items: flex-end;
+}
+
+.cep img{
+    margin-bottom: 10px;
+}
 
 .cep button{
     margin-top: 15px;
@@ -116,18 +130,18 @@ text-decoration-line: none;
 .correios {
     color: black;
     font-size: 14px;
-    padding-top: 105px;
+    padding-top: 205px;
 
 }
 
 .caixaIntEnd{
-    border: 1px solid #00000056;
+    border: 1px solid #00000036;
     border-radius: 8px;
     padding: 15px;
 }
 
 .formEntrega form{
-    border: 1px solid #00000056;
+    border: 1px solid #00000036;
     border-radius: 8px;
     padding: 15px;   
 }
@@ -151,26 +165,27 @@ text-decoration-line: none;
     background-color: white;
     width: 100%;
     padding: 20px;
-    height: 650px;
-    margin: 20px 15px 20px 30px ;
+    height: 735px;
+    margin: 20px 0px 10px 10px ;
 }
 
 .cartao, .pix, .boleto{
     background-color: #f7d8945d;
     width: 90%;
+    height: 35px;
     border-radius: 0px 5px 5px 0px;
 }
 
 .cartao img{
-    margin: 3px 10px;
+    margin: 0px 10px;
 }
 
 .pix img{
-    margin: 3px 10px;
+    padding: 0px 10px;
 }
 
 .boleto img{
-    margin: 5px 10px;
+    padding: 0px 10px;
 }
 
 .mensagemCcv{
@@ -186,6 +201,7 @@ text-decoration-line: none;
     background-color: #f7d8949c;
     width: 7%;
     border: none;
+    padding: 5px;
 }
 
 .modalCartao button:hover{
@@ -294,6 +310,7 @@ text-decoration-line: none;
     background-color: #f7d8949c;
     width: 7%;
     border: none;
+    padding: 5px;
 }
 
 .modalPix button:hover{
@@ -324,6 +341,10 @@ text-decoration-line: none;
     margin: 20px 0px;
 }
 
+.addPagamento{
+    margin-left: 30px;
+}
+
 .btnFinalizar button{
     background-color: #9CF38E;
     width: 60%;
@@ -334,7 +355,18 @@ text-decoration-line: none;
     font-size: 20px;
 }
 
-.btnFinalizar button:hover{
+.addPagamento button {
+    background-color: #9CF38E !important;
+    width: 60% !important;
+    margin: 30px 0px 20px 80px !important;
+    height: 50px !important;
+    color: white !important;
+    border-radius: 30px !important;
+    font-size: 20px !important; 
+}
+
+
+.btnFinalizar button:hover, .addPagamento button:hover{
     background-color: #79b870;
 }
 
@@ -347,7 +379,9 @@ text-decoration-line: none;
     background-color: #f7d8949c;
     width: 7%;
     border: none;
+    padding: 5px;
 }
+
 
 .modalBoleto button:hover{
     background-color: #F7D794;
@@ -393,7 +427,268 @@ text-decoration-line: none;
     background-color: #79b870;
 }
 
-
-
-
 /* <!-- FINAL MODAL BOLETO--> */
+
+
+/* <!-- CHECKOUT-> */
+.checkout {
+    background-color: white;
+    height: 735px;
+    width: 100%;
+    margin: 20px 0px 5px 10px ;
+}
+
+.resumo1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.chek{
+    margin: 0px 10px 20px 15px;
+    height: 450px;
+    border: 1px solid #00000036;
+    border-radius: 8px;
+    
+}
+
+.chek h5{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+
+.checkoutResumo{
+    display: flex;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.checkoutEntrega{
+    font-size: 15px;
+}
+
+.checkoutEntrega button{
+    background-color: #9ACCFF;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.checkoutEntrega img{
+    margin: 10px ;
+}
+
+.imgCaminhao img{
+    margin-top: 20px;
+}
+
+.checkoutPagamento{
+    font-size: 15px;
+}
+
+.checkoutPagamento button{
+    background-color: #9ACCFF;
+    width: 100%;
+    text-align: left;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.checkoutPagamento button:hover, .checkoutEntrega button:hover{
+    background-color: #9abdff;
+
+}
+
+.checkoutPagamento button:focus, .checkoutEntrega button:focus{
+    background-color: #9abdff;
+}
+
+
+
+.btnFinalizarCompra button{
+    background-color: #9CF38E;
+    width: 100%;
+    margin: 50px 0px 5px 15px;
+    height: 40px;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+.btnFinalizarCompra button:hover {
+    background-color: #79b870;
+}
+
+
+
+/* <!-- FINAL CHECKOUT-> */
+
+@media (max-width: 820px) {
+
+    .check input{
+        font-size: 11px;
+    }
+
+
+    .formPagamento{
+        background-color: white;
+        width: 100%;
+        padding: 20px;
+        height: 970.55px;
+        margin: 20px 0px 10px 10px ;
+    }
+
+    .cartao img{
+        width: 15%;
+        margin: 5px 6px 0px 0px;
+    }
+    
+    .pix img{
+        width: 40%;
+        padding: 5px 0px;
+        margin: 0px
+    }
+    
+    .boleto img{
+        width: 50%;
+        padding: 5px 0px;
+        margin: 0px
+    }
+
+        
+    .checkout {
+        background-color: white;
+        height: 970.55px;
+        width: 100%;
+        margin: 20px 0px 5px 10px ;
+    }
+    
+    .chek h5{
+        padding-top: 15px;
+        text-align: center;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.747);
+    }
+    
+    .checkoutResumo{
+        display: flex;
+        font-size: 11px;
+        line-height: 2;
+    }
+
+    
+    .checkoutEntrega button{
+        background-color: #9ACCFF;
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .entregaDescriao{
+        font-size: 10px;
+    }
+
+    .entregaDescriao hr{
+        margin: 0px 0px 10px 0px;
+    }
+
+    .checkoutPagamento button{
+        background-color: #9ACCFF;
+        width: 100%;
+        text-align: left;
+        border: none;
+        margin-top: 10px;
+        font-size: 13px;
+        text-align: center;
+    
+    }
+
+    .card{
+        font-size: 9px;
+        padding: 6px;
+    }
+
+    .btnFinalizarCompra button{
+        font-size: 16px;
+        margin: 20px 0px 20px 15px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 765px) {
+    
+
+    .res{
+        background-color: #ffcedf57;
+        font-family: 'Dancing Script', cursive;
+        display: flex;
+        height: 100%;
+        width: 200px;   
+        flex-wrap: wrap;
+    }
+
+    .formPagamento, .checkout{  
+        height: 100%;
+    }
+
+    .check input{
+        font-size: 11px;
+    }
+
+    .cartao img{
+        width: 11%;
+        margin-top: 2px;
+    }
+
+    .pix img{
+        width: 25%;
+    }
+
+    .boleto img{
+        width: 32%;
+    }
+
+    .cartFake{
+        margin-left: 45px;
+    }
+
+    .addPagamento, .addPagamento button{
+        font-size: 15px !important;
+        margin-left: 0px;
+    }
+
+    .resumo, .resumo2, .resumo3{
+        font-size: 13px;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .resumo2{
+        font-size: 12px;
+    }
+
+    .entregaDescriao img{
+        width: 65%;
+    }
+
+    .entregaDescriao li{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .checkoutPagamento li{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+}
