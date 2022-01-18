@@ -8,7 +8,8 @@
     
 }
 
-.nav{
+
+footer.nav{
     display: flex;
     flex-wrap: wrap;
     padding-left: 6px;
@@ -54,6 +55,7 @@ a, .redes, .nav-link, .pagamento, .nav{
     
 }
 
+
 .nav-item-img{
     display: flex;
     justify-content: space-around;
@@ -98,6 +100,3 @@ a, .redes, .nav-link, .pagamento, .nav{
 
 }
 
-.coluna-1, .coluna-2, .coluna-3, .redes p {
-    margin-top: 50px;
-}
