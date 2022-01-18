@@ -34,3 +34,30 @@ body{
 .p-sucesso-title{
     font-weight: bold;
 }
+
+
+@media (max-width: 992px){ 
+    .table{
+        margin-left: 20px;
+    }
+
+    .img-checked{
+        margin-left: 340px;
+    }
+}
+
+
+@media (max-width: 667px){
+    .table{
+        margin-left: 11px;
+        width: 378px;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0rem 0rem;
+    }
+
+    .img-checked{
+        margin-left: 153px;
+    }
+}

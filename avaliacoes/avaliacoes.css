@@ -89,3 +89,26 @@ em{
     margin-bottom: 50px;
     margin-left: -72vw;
 }
+
+
+/* RESPONSIVO */
+
+@media(max-width:900px)
+{  .clientes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.avaliacoes{
+    margin-left: -48vw;
+}
+}
+
+@media(max-width:416px){
+    .avaliacoes{
+        margin-left: 1vw;
+    }
+}

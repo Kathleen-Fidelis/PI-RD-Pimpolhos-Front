@@ -56,7 +56,15 @@ body{
 
 .custom-input input{
     font-size: 12px;
-    background-color: #f7d8948a;
+}
+
+.custom-input label{    /* ADICIONEI */
+    font-weight: bold;
+    color: #626262;
+}
+
+.custom-input input::placeholder{   /* ADICIONEI */
+    color: black;
 }
 
 .custom-button-cancelar{
@@ -75,4 +83,30 @@ body{
 .line-cancelar{
     margin-top: 0; 
     margin-bottom: 10px;
+}
+
+
+@media (max-width: 767px){ 
+    .card-input{
+        width: 300px;
+        border: none;
+        padding-left: 10px;
+    }
+
+    .text-esqueci-senha{
+        font-size: 13px;
+    }
+
+    .custom-input input{
+        width: 275px;
+    }
+
+    hr{
+        width: 290px;
+        margin-left: 23px;
+    }
+
+    .line-cancelar{
+        width: 172px;
+    }
 }

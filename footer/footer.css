@@ -101,3 +101,36 @@ a, .redes, .nav-link, .pagamento, .nav{
 .coluna-1, .coluna-2, .coluna-3, .redes p {
     margin-top: 50px;
 }
+
+
+/* Menor tamanho */
+@media (max-width: 767px){ 
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .coluna-1 ul li a{
+        text-align: center;
+    }
+ 
+    .coluna-2 ul li a{
+         text-align: center;
+    }
+      
+    .coluna-3 ul li a{
+        text-align: center;
+    }
+ 
+    .redes ul li{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  
+  /* Tamanho normal */
+  @media (min-width: 993px){
+      
+  }

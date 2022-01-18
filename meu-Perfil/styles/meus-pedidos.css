@@ -46,6 +46,10 @@
     padding: 6%;
 }
 
+.custom-btn-meus-pedidos:hover{
+    color: rgb(107, 107, 107);
+}
+
 .container-meus-pedidos{
     border: 1px solid #E7E6E6;
     border-radius: 10px;
@@ -61,4 +65,27 @@
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+
+@media (max-width:992px){
+    .custom-btn-meus-pedidos{
+        font-size: 13px;
+        width: 81%;
+    }
+}
+
+@media (max-width:767px){   /* TROQUEI AS COLUNAS TB COL-MD-8 E COL-12 */
+    .container-conteudo{
+        text-align: center;
+    }
+
+    .p-formaPagamento{  /* ADICIONEI NO HTML DE MEU PERFIL */
+        margin-bottom: 0px;
+    }
+
+    .custom-btn-meus-pedidos{
+        margin-left: 61px;
+        margin-bottom: 13px;
+    }
 }
